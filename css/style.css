@@ -111,6 +111,9 @@ section.hero-part {
 /* end hero part */
 
 /* client company style */
+.client-size {
+  width: 1110px;
+}
 .client {
   margin: 69px 100px;
 }
@@ -128,3 +131,75 @@ section.hero-part {
   );
 }
 /* end client company style */
+/* collection style */
+.collection-size {
+  width: 1047px;
+}
+.collection-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 70px;
+  text-align: center;
+  color: #3a3a3a;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+.collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.collection-item {
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 14px;
+  width: 329px;
+}
+.item-thumb {
+  max-width: 300px;
+  height: 256px;
+  margin-bottom: 16px;
+}
+.item-con .item-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: #18191f;
+  text-transform: capitalize;
+}
+.item-con .item-price {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.87);
+}
+.item-icons i {
+  color: #fb8200;
+}
+.item-icons span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #5e6366;
+  font-family: "Roboto";
+}
+.collection-item .item-para {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+  color: #787885;
+  margin-top: 5px;
+}
+.see-more {
+  text-align: right;
+  margin-top: 50px;
+}
+.see-more a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(224, 44, 109, 0.87);
+}
+
+/* end collection style */
