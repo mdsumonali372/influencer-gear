@@ -150,7 +150,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1047px) {
+@media screen and (min-width: 769px) and (max-width: 991px) {
   .container {
     width: 100%;
   }
@@ -172,7 +172,8 @@
   .collections {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    width: 90%;
+    width: 100%;
+    padding: 0 6%;
   }
   .see-more {
     margin-right: 10%;
@@ -189,5 +190,25 @@
   .feature-left-col img {
     width: 100%;
     margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+  nav {
+    padding: 0 6%;
+  }
+
+  .hero-column {
+    padding: 0 6%;
+  }
+  .hero-right-col img {
+    object-fit: cover;
+  }
+
+  .hero-right-col {
+    background-size: contain;
   }
 }
