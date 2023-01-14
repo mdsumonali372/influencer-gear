@@ -51,12 +51,22 @@ nav {
   align-items: center;
   justify-content: space-between;
   height: 80px;
+  position: relative;
 }
 .logo a {
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
   color: #3a3a3a;
+}
+.mobile-btn {
+  display: none;
+  color: #1b1b1b;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  background: none;
+  position: absolute;
 }
 .menu {
   display: flex;
@@ -116,13 +126,13 @@ section.hero-part {
 
 /* client company style */
 .client {
-  margin: 69px 100px;
+  padding: 69px 0px;
 }
 .client-company {
-  display: flex;
-
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
   align-items: center;
-  gap: 60px;
+  grid-gap: 60px;
   padding: 34px 62px;
   background: linear-gradient(
     90deg,
@@ -236,3 +246,35 @@ section.hero-part {
   margin: 16px 0;
 }
 /* end feature style */
+/* footer  */
+footer {
+  background-color: #000000;
+  padding: 50px 0;
+}
+.footer-item {
+  text-align: center;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+}
+.copyright {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d9dbe1;
+}
+.footer-icons {
+  margin-top: 17px;
+}
+.footer-icons i {
+  color: #fff;
+  font-size: 17px;
+  background: #6e57578f;
+  padding: 8px;
+  border-radius: 50px;
+  margin-left: 16px;
+}
+/* end footer */

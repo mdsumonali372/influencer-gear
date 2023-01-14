@@ -1,0 +1,154 @@
+/* small device */
+@media screen and (max-width: 576px) {
+  .container,
+  .container-size {
+    width: 100%;
+  }
+  nav {
+    padding: 0 30px;
+  }
+
+  .logo {
+    text-align: center;
+    margin: auto;
+  }
+
+  .logo a {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .mobile-btn {
+    display: block;
+  }
+  .menu-bar {
+    display: none;
+  }
+  .hero-column,
+  .feature-column {
+    flex-direction: column-reverse;
+    padding: 22px;
+  }
+  .hero-left-col,
+  .hero-right-col {
+    width: 100%;
+    text-align: center;
+  }
+  .hero-right-col {
+    background-size: contain;
+  }
+
+  .hero-right-col img {
+    width: 80%;
+    object-fit: cover;
+  }
+  .section-title {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .section-para {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .client-company {
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 24px;
+    padding: 30px;
+    grid-row-gap: 22px;
+  }
+  .collections {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  .collection-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .see-more {
+    margin-right: 20%;
+  }
+  .feature-right-col,
+  .feature-left-col {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+  .feature-left-col img {
+    width: 100%;
+  }
+  .feature-title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .feature-para {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .container,
+  .container-size {
+    width: 100%;
+  }
+  nav {
+    padding: 0 30px;
+  }
+
+  .logo {
+    text-align: center;
+    margin: auto;
+  }
+
+  .logo a {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .mobile-btn {
+    display: block;
+  }
+  .menu-bar {
+    display: none;
+  }
+  .hero-column,
+  .feature-column {
+    flex-direction: column-reverse;
+    padding: 22px;
+  }
+  .hero-left-col,
+  .hero-right-col {
+    width: 100%;
+    text-align: center;
+  }
+  .hero-right-col {
+    background-size: contain;
+  }
+  .hero-right-col img {
+    width: 80%;
+    object-fit: cover;
+  }
+  .client-company {
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 24px;
+    padding: 30px;
+    grid-row-gap: 22px;
+  }
+  .collections {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  .see-more {
+    margin-right: 20%;
+  }
+  .feature-right-col,
+  .feature-left-col {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+  .feature-left-col img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+}
