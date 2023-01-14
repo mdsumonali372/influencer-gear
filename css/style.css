@@ -24,10 +24,6 @@ img {
   width: 1170px;
   margin: 0 auto;
 }
-
-.container-size {
-  width: 1110px;
-}
 .primary-btn {
   background: #e02c6d;
   border-radius: 40px;
@@ -143,9 +139,7 @@ section.hero-part {
 }
 /* end client company style */
 /* collection style */
-.collection-size {
-  width: 1047px;
-}
+
 .collection-title {
   font-weight: 600;
   font-size: 28px;
@@ -159,6 +153,8 @@ section.hero-part {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
+  width: 1017px;
+  margin: 0 auto;
 }
 .collection-item {
   background: #ffffff;
@@ -205,6 +201,7 @@ section.hero-part {
 .see-more {
   text-align: right;
   margin-top: 50px;
+  margin-right: 4%;
 }
 .see-more a {
   font-weight: 700;

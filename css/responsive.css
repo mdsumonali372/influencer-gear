@@ -1,7 +1,6 @@
 /* small device */
 @media screen and (max-width: 576px) {
-  .container,
-  .container-size {
+  .container {
     width: 100%;
   }
   nav {
@@ -58,6 +57,7 @@
   .collections {
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
+    width: 100%;
   }
   .collection-title {
     font-size: 16px;
@@ -86,8 +86,7 @@
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
-  .container,
-  .container-size {
+  .container {
     width: 100%;
   }
   nav {
@@ -135,6 +134,7 @@
   .collections {
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
+    width: 100%;
   }
   .see-more {
     margin-right: 20%;
@@ -150,5 +150,44 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1047px) {
+  .container {
+    width: 100%;
+  }
+  nav {
+    padding: 0 6%;
+  }
+
+  .hero-column {
+    padding: 0 6%;
+  }
+
+  .hero-right-col img {
+    object-fit: cover;
+  }
+
+  .hero-right-col {
+    background-size: contain;
+  }
+  .collections {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    width: 90%;
+  }
+  .see-more {
+    margin-right: 10%;
+  }
+  .feature-column {
+    flex-direction: column-reverse;
+    padding: 0 6%;
+  }
+  .feature-left-col,
+  .feature-right-col {
+    width: 100%;
+    text-align: center;
+  }
+  .feature-left-col img {
+    width: 100%;
+    margin-top: 40px;
+  }
 }
