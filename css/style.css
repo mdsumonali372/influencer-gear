@@ -130,12 +130,25 @@ section.hero-part {
   align-items: center;
   grid-gap: 60px;
   padding: 34px 62px;
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
     rgba(192, 204, 218, 0.1) 0%,
     rgba(192, 204, 218, 0.6) 50.38%,
     rgba(192, 204, 218, 0.1) 100%
-  );
+  ); */
+  border: 1px solid;
+  border-image: linear-gradient(
+      to right,
+      #c0ccda 10%,
+      #c0ccda 25%,
+      #c0ccda 60%,
+      #c0ccda 10%,
+      #c0ccda 75%,
+      #c0ccda 75%
+    )
+    0.5;
+  border-left: none;
+  border-right: none;
 }
 /* end client company style */
 /* collection style */
